@@ -1,6 +1,17 @@
 ## HiMEx
 High-Throughput Microvolume Extraction Method
 
+## Lab Protocol
+### Introduction
+
+High-throughput Microvolume Extraction (HiMEx) methods were tested using:
+- Physical extraction through thermal shock (freeze-thaw, FT),
+- Combination of physical and chemical extraction (FT + proteinase K, FTP),
+- Further enhanced disruption with surfactant (FTP + IGEPAL, FTPIG).
+
+  
+![Protocol](https://github.com/user-attachments/assets/283d3e5d-f8d2-402f-ba16-e34de1b96675)
+
 
 ## Abstract
 
