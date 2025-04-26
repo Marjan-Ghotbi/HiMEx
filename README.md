@@ -34,7 +34,7 @@ Ghotbi M, et al. (2024). From Microscale to Microbial Insights: Validating High-
 
 
 
-# prokaryotes amplicon analysis 
+# Prokaryotes amplicon analysis 
 Performs:
 Metadata cleanup and matching
 Rarefaction
@@ -179,7 +179,7 @@ contaminants_prevalence <- contamdf.prev05[contamdf.prev05$contaminant == TRUE, 
 write.csv(contaminants_prevalence, "contaminants_prevalence_0.05_rarefaction4000.csv")
 ```
 # Curated ASVs to Remove (Manual + Decontam + spiked bactertia removal)
-# spiked bacteria codes:  
+# Spiked bacteria codes:  
 "1ae1bd31e0995f907062cc851d803bd7","39e27cbe03e2b71dbc8a5a1c8b8e7171","ac3a3e27aa0a24e16938ecd9de1c1060","1b468de6094a372d7fbc7d58b16f81c6"
 
 
@@ -244,7 +244,7 @@ meta_raw<-sample_data(physeq4)
 meta_raw
 ```
 
-# compute the Spearman correlation
+# Compute the Spearman correlation
 
 ```{r}
 # Extract MV and bulk samples
@@ -256,7 +256,7 @@ meta_raw <- sample_data(physeq4) %>%
 meta_raw$LibrarySize <- sample_sums(physeq4)
 ```
 
-# normalization
+# Normalization
 
 rle 
 Tightly clustered points near y = 0: That shows consistent scaling across samples.
@@ -417,7 +417,7 @@ pcoa_plot
 
 ```
 
-# whether DNA input volume impacts microbial community structure??
+# Whether DNA input volume impacts microbial community structure??
 
 ```{r}
 
@@ -491,7 +491,7 @@ pcoa_plot <- plot_ordination(physeq_rare_4000, ord, type = "samples",
 pcoa_plot
 
 ```
-# barplot
+# Barplot
 
 ```{r taxa_barplot_cleaned, fig.width=16, fig.height=8, message=FALSE, warning=FALSE}
 
@@ -545,7 +545,7 @@ print(bp_ab$barplot)
 
 
 
-# function for betadispers, Tukey HSD and Adonis
+# Function for betadispers, Tukey HSD and Adonis
 
 
 ```{r}
@@ -598,7 +598,7 @@ run_beta_div_tests <- function(physeq_obj, group_var = "Method", strata_var = "K
 
 ```
 
-# subset
+# Subset
 
 ```{r}
 # Set rarefied object
