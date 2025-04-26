@@ -32,13 +32,7 @@ Ghotbi M, et al. (2024). From Microscale to Microbial Insights: Validating High-
 
 ---
 
-# Table of Contents
-- [Protocol](#Protocol)
-- [Data Processing](#data)
-- [Results](#results)
-- [Contact](#contact)
 
----
 
 # prokaryotes amplicon analysis 
 Performs:
