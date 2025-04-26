@@ -34,7 +34,7 @@ Ghotbi M, et al. (2024). From Microscale to Microbial Insights: Validating High-
 
 
 
-# Prokaryotes amplicon analysis 
+# Prokaryotes Amplicon Analysis 
 Performs:
 Metadata cleanup and matching
 Rarefaction
@@ -43,7 +43,7 @@ Differential abundance via DESeq2
 Alpha diversity (Shannon, modeling with lme4)
 
 
-# Load packages
+# Load Packages
 
 ```{r}
 
@@ -73,7 +73,7 @@ library(extrafont)
 ```
 
 
-# Load + prep data
+# Load + Prep data
 
 ```{r}
 
@@ -157,7 +157,7 @@ ggplot(df2, aes(x = Index, y = LibrarySize, color = Sample_blank)) +
 write.csv(df2, "Method_lib_size_standard.csv")
 ```
 
-# Identify Contaminants with decontam (Prevalence Method)
+# Identify Contaminants with Decontam (Prevalence Method)
 
 ```{r}
 # Add logical vector for blanks to sample_data
@@ -178,8 +178,8 @@ contaminants_prevalence <- contamdf.prev05[contamdf.prev05$contaminant == TRUE, 
 # Save list of contaminants
 write.csv(contaminants_prevalence, "contaminants_prevalence_0.05_rarefaction4000.csv")
 ```
-# Curated ASVs to Remove (Manual + Decontam + spiked bactertia removal)
-# Spiked bacteria codes:  
+# Curated ASVs to Remove (Manual + Decontam + Spiked bactertia removal)
+# Spiked Bacteria Codes:  
 "1ae1bd31e0995f907062cc851d803bd7","39e27cbe03e2b71dbc8a5a1c8b8e7171","ac3a3e27aa0a24e16938ecd9de1c1060","1b468de6094a372d7fbc7d58b16f81c6"
 
 
@@ -224,7 +224,7 @@ physeq_16S_clean <- prune_taxa(!taxa_names(physeq_16S) %in% ASVs_to_remove, phys
 physeq_16S_clean
 
 ```
-# Step 2: Filter non-informative samples
+# Step 2: Filter Non-informative Samples
 
 ```{r}
 # Start with samples that have at least one read
@@ -244,7 +244,7 @@ meta_raw<-sample_data(physeq4)
 meta_raw
 ```
 
-# Compute the Spearman correlation
+# Compute the Spearman Correlation
 
 ```{r}
 # Extract MV and bulk samples
@@ -298,7 +298,7 @@ boxplot(otu_table(result_deseq$dat.normed), main = "DESeq2 size factors")
 boxplot(otu_table(result_rle$dat.normed), main = "RLE")
 
 ```
-# Visualizing library size differences.
+# Visualizing library Size Differences.
 
 ```{r paired-correlation-DESeq2, message=FALSE, warning=FALSE}
 
@@ -360,7 +360,7 @@ vegan::rarecurve(otu.rare, step = 100, cex = 0.5, label = TRUE)
 ```
 
 
-# Choosing rarefaction depth depending on sequencing depth distribution
+# Choosing Rarefaction Depth Based on Sequencing Depth Distribution
 
 ```{r}
 
@@ -377,7 +377,7 @@ saveRDS(physeq_rare_4000, "physeq_rare_4000rared.rds")
 
 ```
 
-# ordination
+# Ordination
 
 ```{r}
 # Create ordination object if not already done
@@ -417,7 +417,7 @@ pcoa_plot
 
 ```
 
-# Whether DNA input volume impacts microbial community structure??
+# Evaluating Whether Extraction Volume Affects Microbial Community Structure
 
 ```{r}
 
@@ -769,7 +769,7 @@ print(pairwise_volume)
 
 ```
 
-# DESeq2 differential abundance
+# DESeq2 Differential Abundance
 
 ```{r}
 # DESeq2 Analysis Pipeline
@@ -830,7 +830,7 @@ rm(dds, vsd, otu_vst)
 
 ```
 
-# Alpha diversity (Shannon)
+# Alpha Diversity (Shannon)
 
 ```{r fig.width=10, fig.height=6, message=FALSE, warning=FALSE}
 
@@ -923,7 +923,7 @@ print(bp_shannon)
 
 ```
 
-# LMM models
+# LMM Models
 Fixed effects: KFTno, Method
 Random effect: (1 | Month:Temp) (nested environmental covariates)
 
@@ -995,7 +995,7 @@ summary(pairwise_KFT_method)
 plot(emmeans(lmm6, "Method"), comparisons = TRUE)
 
 ```
-# Shannon diversity across methods and timepoints with both boxplots and violin plots
+# Shannon Diversity Across Methods and Timepoints with Both Boxplots and Violin Plots
 
 ```{r}
 
