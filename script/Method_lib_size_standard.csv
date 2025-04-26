@@ -1,0 +1,43 @@
+"","Sample_code","Code","Method","Extracted_volume","Size","Sample_blank","Purification","Type","KFTno","Month","Temp","Salinity","LibrarySize","SampleID","Index"
+"D2.PBS","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,0,"D2.PBS",1
+"D2.PBS.IG","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,0,"D2.PBS.IG",2
+"D3.Blank","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,0,"D3.Blank",3
+"D4.PBS.Neg","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,0,"D4.PBS.Neg",4
+"D4.PBS.Vage2","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,0,"D4.PBS.Vage2",5
+"D4.PBS.Vage1","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,1,"D4.PBS.Vage1",6
+"D3.PBS.IG","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,10,"D3.PBS.IG",7
+"D3.PBS.Prk.frozen","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,15,"D3.PBS.Prk.frozen",8
+"D8.Neg","mv-Neg","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,17,"D8.Neg",9
+"neg.lib2.34","neg-lib2","Blank ","neg",0,"mv","Blank","neg","Blank","Blank",NA,NA,NA,18,"neg.lib2.34",10
+"extractionblank.10Mar23.ED.1","Extractionblank","Blank ","conventional",50000,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,35,"extractionblank.10Mar23.ED.1",11
+"D1.PBS","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,37,"D1.PBS",12
+"extractionblank.10Mar23.ED.4","Extractionblank","Blank ","conventional",50000,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,39,"extractionblank.10Mar23.ED.4",13
+"PCRblank.22Mar23.ED","PCRblank-22Mar23-ED","Blank","conventional",50000,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,47,"PCRblank.22Mar23.ED",14
+"extractionblank.10Mar23.ED.3","Extractionblank","Blank ","conventional",50000,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,67,"extractionblank.10Mar23.ED.3",15
+"extractionblank.10Mar23.ED.5","Extractionblank","Blank ","conventional",50000,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,76,"extractionblank.10Mar23.ED.5",16
+"extractionblank.10Mar23.ED.2","Extractionblank","Blank ","conventional",50000,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,92,"extractionblank.10Mar23.ED.2",17
+"D4.PBS.IG","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,102,"D4.PBS.IG",18
+"PCRblank.21Nov22.62","PCR bulk blank","Blank ","blank",0,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,121,"PCRblank.21Nov22.62",19
+"PCRblank.11Nov22.53","PCR bulk blank","Blank ","blank",0,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,147,"PCRblank.11Nov22.53",20
+"PCRblank.28Oct22.33","PCR bulk blank","Blank ","blank",0,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,155,"PCRblank.28Oct22.33",21
+"D2.neg","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,260,"D2.neg",22
+"D1.PBS.IG","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,275,"D1.PBS.IG",23
+"D3.PBS.Prk.notfrozen","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,319,"D3.PBS.Prk.notfrozen",24
+"Filterblank.3um.18Nov22.60","Filterblank","Blank ","blank",0,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,336,"Filterblank.3um.18Nov22.60",25
+"Filterblank.10um.18Nov22.61","Filterblank","Blank ","blank",0,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,437,"Filterblank.10um.18Nov22.61",26
+"D1.Neg","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,498,"D1.Neg",27
+"neg.lib1.96","neg-lib1","Blank ","neg",0,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,513,"neg.lib1.96",28
+"neg.dir.3lib","neg-dir","Blank ","neg",0,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,581,"neg.dir.3lib",29
+"Extractionblank.18Nov22.63","Extractionblank","Blank ","blank",0,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,609,"Extractionblank.18Nov22.63",30
+"Filterblank.25Oct22.16","Filterblank","Blank ","blank",0,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,620,"Filterblank.25Oct22.16",31
+"extractionblank.8Nov22.52","Extractionblank","Blank ","blank",0,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,657,"extractionblank.8Nov22.52",32
+"D8.PBS.Prk","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,743,"D8.PBS.Prk",33
+"mv.Neg","neg-dir","Blank ","FTPIG",0,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,1086,"mv.Neg",34
+"Blank.62","Blank","Blank ","FTPIG",0,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,1169,"Blank.62",35
+"Blank.60","Blank","Blank ","FTPIG",0,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,1259,"Blank.60",36
+"D4.PBS.Prk","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,2050,"D4.PBS.Prk",37
+"D8.PBS","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,2071,"D8.PBS",38
+"D8.PBS.IG","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,3830,"D8.PBS.IG",39
+"extractionblank.10Mar23.ED.6","Extractionblank","Blank ","conventional",50000,"bulk","Blank","conventional","Blank","Blank",NA,NA,NA,3997,"extractionblank.10Mar23.ED.6",40
+"D4.PBS","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,13014,"D4.PBS",41
+"D3.PBS","Extractionblank","Blank ","FTPIG",100,"mv","Blank","Direct","Blank","Blank",NA,NA,NA,32317,"D3.PBS",42
