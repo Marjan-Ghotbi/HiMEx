@@ -1,5 +1,5 @@
-# HiMEx
-High-Throughput Microvolume Extraction Method
+# HiMEx    High-Throughput Microvolume Extraction Method
+
 
 **From Microscale to Microbial Insights: Validating High-Throughput Microvolume Extraction Methods (HiMEx) for Marine Microbial Ecology**
 
