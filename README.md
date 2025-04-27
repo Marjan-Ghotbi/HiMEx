@@ -258,18 +258,18 @@ meta_raw$LibrarySize <- sample_sums(physeq4)
 
 # Normalization
 
-rle 
+rle ; 
 Tightly clustered points near y = 0: That shows consistent scaling across samples.
 Symmetry around the zero line: No bias toward high or low values in specific samples.
 
 
-DESeq
+DESeq ; 
 DESeq2 computes per-sample scaling factors that adjust for sequencing depth and compositional biases.
 Put samples on the same "scale" without rarefying, retaining more power.
 The distribution of values across samples is reasonably uniform.
 No major skews or samples standing out with inflated variance.
 
-clr
+clr ; 
 Values near 0 mean the taxon abundance is close to the geometric mean of that sample.
 Most of the values cluster close to 0: expected in CLR — the transformation centers data per sample.
 Some deep negative outliers -> taxa nearly absent in those samples (low relative abundance).
@@ -291,7 +291,7 @@ result_deseq <- normalization_set(physeq4, method = "DESeq", groups = group_var)
 # RLE normalization
 result_rle <- normalization_set(physeq4, method = "rle", groups = group_var)
 
-# Visualize for sanity check
+# Visualize for checking
 library(ggplot2)
 boxplot(otu_table(result_clr$dat.normed), main = "CLR")
 boxplot(otu_table(result_deseq$dat.normed), main = "DESeq2 size factors")
