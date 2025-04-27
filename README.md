@@ -16,7 +16,7 @@ High-throughput Microvolume Extraction (HiMEx) methods were tested using:
 - Further enhanced disruption with surfactant (FTP + IGEPAL, FTPIG).
 
 
-![Protocol](https://github.com/user-attachments/assets/283d3e5d-f8d2-402f-ba16-e34de1b96675)
+[Method_Lab_work_protocol_.pdf](https://github.com/user-attachments/files/19930648/Method_Lab_work_protocol_.pdf)
 
 
 ## Citation
