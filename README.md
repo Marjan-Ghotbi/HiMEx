@@ -21,7 +21,7 @@ High-throughput Microvolume Extraction (HiMEx) methods were tested using:
 
 ## Citation
 Ghotbi M, et al. (2024). From Microscale to Microbial Insights: Validating High-Throughput Microvolume Extraction Methods (HiMEx) for Marine Microbial Ecology. bioRxiv.
-🔗 [https://doi.org/10.1101/2024.12.02.626238](https://doi.org/10.1101/2024.12.02.626238)
+🔗 [[https://doi.org/10.1101/2024.12.02.626238](https://www.biorxiv.org/content/10.1101/2025.05.25.655987v1)]
 
 
 
